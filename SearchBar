@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wheaton high School Video Game Making Club</title>
+    </head>
+    <body>
+      <form id="Search" class="seeker" method="get" action="default.html" />
+      <input class="seeker" id="txtSearch" type="text" name="searchBar" />
+      <input class="searching" type="submit" name="submition" value="Search" />
+      <input class="seeker" type="hidden" name="sitesearch" value="default.html" />
+      <script type="text/javascript">
+          document.getElementById('Search').onsubmit = function() {
+              window.location = 'http://www.google.com/search?q= (our domain)' + document.getElementById('txtSearch').value;
+              return false;
+          }
+      </script>
+    </body>
+</html>
