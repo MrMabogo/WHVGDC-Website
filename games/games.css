@@ -5,6 +5,7 @@ body {
   margin-right: 0%;
   background-color: #1e1e1e;
   font-family: "Trebuchet MS",sans-serif;
+  color: white;
 }
 
 h1 {
@@ -16,46 +17,61 @@ a{
   color: #bbbbbb;
 }
 
-.topper {
-  color: white;
-}
+/*general game info, download, and desc */
 
-/* Slideshow container */
 .A {
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
   background-color: #828282;
+  color:black;
   padding-right: 10%;
   padding-top: 15px;
+}
+
+.A1 ,.A2 {
+  padding: 15px;
+  padding-top: 0;
 }
 
 .A1 {
   flex:2;
   min-width: 400px;
-  padding: 15px;
-  padding-top: 0;
 }
 
 .A2 {
-  min-width: 200px;
   flex:1;
-  padding: 15px;
-  padding-top: 0;
+  min-width: 200px;
 }
+
+/*list of creators*/
 
 .B {
   background-color: #494949;
-  color: white;
   margin-top: 15px;
   padding: 15px;
   padding-right: 10%;
 }
 
-.C {
+.B2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+/*individual clickable creators*/
+
+.creator {
+  background-color: #303030;
+  margin-right: 10px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.creator:hover {
+  background-color: #202020
 }
 
 .creator>img {
@@ -69,15 +85,6 @@ a{
   margin: 0;
   margin-right: 5px;
   width:200px;
-}
-
-.creator {
-  background-color: #303030;
-  margin-right: 10px;
-  margin-top: 15px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 /* Hide the images by default */
@@ -110,11 +117,6 @@ a{
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
 }
 
 /* The dots/bullets/indicators */
