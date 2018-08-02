@@ -1,0 +1,15 @@
+body
+{
+	margin-left: 10%;
+	margin-top: 0px;
+	margin-right: 1px;
+	background-color: #1E1E1E;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+.container
+{
+	display: flex;
+	justify-content: flex-start | space-between;
+	margin-left: 24px;
+}
