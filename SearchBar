@@ -2,13 +2,20 @@
 <html>
     <head>
         <title>Wheaton high School Video Game Making Club</title>
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.css" /> 
     </head>
     <body>
-      <form id="Search" class="seeker" method="get" action="default.html" />
-      <input class="seeker" id="txtSearch" type="text" name="searchBar" />
-      <input class="searching" type="submit" name="submition" value="Search" />
-      <input class="seeker" type="hidden" name="sitesearch" value="default.html" />
+      <form id="Search" class="seeker" method="get" action="default.html"> 
+        <input class="search1" type="submit" name="submition" value="Search" />
+        <input class= "awesomplete" type="text" id="txtSearch"/>      
+      </form>
+      <script type="text/javascript" src="https://cdn.rawgit.com/LeaVerou/awesomplete/gh-pages/awesomplete.min.js"> </script>
       <script type="text/javascript">
+         var input = document.getElementById("txtSearch");
+         var awesomplete = new Awesomplete(input, {
+              list: ["gamepage", "team members", "main page", "somethingsomething page"],
+              minChars: 1
+          });
           document.getElementById('Search').onsubmit = function() {
               window.location = 'http://www.google.com/search?q= (our domain)' + document.getElementById('txtSearch').value;
               return false;
