@@ -1,0 +1,142 @@
+body
+{
+	margin-left: 10%;
+	margin-top: 0px;
+	margin-right: 1px;
+	margin-bottom: 5px;
+	background-color: #1E1E1E;
+	font-family: "Trebuchet MS", sans-serif;
+	color: white;
+}
+
+body > div
+{
+	background-color: #828282;
+	margin-top: 0px;
+}
+
+h2
+{
+	color: #FFFFFF;
+	margin-left: 24px;
+}
+
+a:not(.nav)
+{
+	text-decoration: none;
+	font-weight: bold;
+	color: #DFDFDF;
+}
+
+.nav
+{
+	color: #828282;
+	text-decoration: none;
+	margin-bottom: 0px;
+}
+
+.container
+{
+	display: flex;
+	justify-content: flex-start | space-between;
+	background-color: #828282;
+	padding-bottom: 18px;
+	margin-left: 24px;
+}
+
+.container div
+{	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-right: 24px;
+}
+
+.container p
+{
+	margin-bottom: 2px;
+	margin-top: 2px;
+	color: #E1E1E1;
+}
+
+.container a
+{
+	margin-bottom: 2px;
+}
+
+.person
+{
+	padding-right: 5px;
+}
+
+.person:hover
+{
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 3px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	padding-left: 2px;
+	background-color: #939393;
+}
+
+.person a
+{
+	font-size: 22px;
+}
+
+.game 
+{
+	padding: 6px 3px 3px 3px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #939393;
+}
+
+.game:hover
+{
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	background-color: #939393;
+}
+
+.game img
+{
+	margin: 3px 5px 5px 5px;
+}
+
+.game p
+{
+	color: #000000;
+	font-size: 12px;
+}
+
+#header 
+{
+	background-color: #EDEDED;
+	margin-top: 0px;
+}
+
+#header h1
+{
+	color: #878787;
+	margin-bottom: 0px;
+}
+
+#header p
+{
+	margin-top: 8px;
+	color: #878787;
+}
+
+#bottom
+{
+	background-color: #494949;
+	margin-top: 20px;
+}
+
+#games
+{
+	background-color: #494949;
+}

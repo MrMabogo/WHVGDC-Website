@@ -13,6 +13,12 @@ a
 	font-weight: bold;
 }
 
+form
+{
+	height: 1px;
+	margin-bottom: 0px;
+}
+
 body > div
 {
 	padding-left: 10px;
@@ -108,6 +114,11 @@ body > div p
 	margin: 3px 5px 5px 5px;
 }
 
+.person
+{
+	padding-right: 5px;
+}
+
 .person:hover
 {
 	border-top: 0px;
@@ -143,6 +154,23 @@ body > div p
 .team a
 {
 	font-size: 22px;
+}
+
+#search_bar
+{
+	display: inline-block;
+	background-color: #2F2F2F;
+	border: 0;
+	width: 100%;
+	height: 20px;
+	color: #FFFFFF;
+}
+
+#search_bar:focus
+{
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
 }
 
 #people
