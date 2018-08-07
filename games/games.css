@@ -8,7 +8,7 @@ body {
   color: white;
 }
 
-h1 {
+h1,h3,p {
   margin: 0;
 }
 
@@ -51,40 +51,52 @@ a{
   margin-top: 15px;
   padding: 15px;
   padding-right: 10%;
+  padding-bottom: 0;
 }
 
 .B2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  padding: 15px;
+	padding-top: 5px;
 }
 
 /*individual clickable creators*/
 
 .creator {
   background-color: #303030;
-  margin-right: 10px;
-  margin-top: 15px;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 5px;
+
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 .creator:hover {
-  background-color: #202020
+  border: 0;
+  border-left: 2px;
+  border-style: solid;
+  border-color: white;
+  margin-left: -2px;
+  background-color: #202020;
 }
 
 .creator>img {
-  margin-top: 0;
   margin-right: 5px;
-  width: 75px;
-  height: 75px;
+  width: 50px;
+  height: 50px;
 }
 
-.creator>p {
+.creator p {
   margin: 0;
   margin-right: 5px;
-  width:200px;
+}
+
+.creator h3 {
+  margin-bottom: 2px;
 }
 
 /* Hide the images by default */
