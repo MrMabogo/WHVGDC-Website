@@ -88,6 +88,7 @@ a:not(.nav)
 	margin-right: 15px;
 	margin-top: 10px;
 	text-align: center;
+	width: 100px;
 }
 
 .game:hover
@@ -121,7 +122,7 @@ a:not(.nav)
   flex-wrap: wrap;
 }
 
-#header>img {
+#header img {
 	width: 150px;
 	height: 150px;
 	margin-bottom: 15px;
