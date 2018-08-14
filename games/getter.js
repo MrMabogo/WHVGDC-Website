@@ -59,17 +59,29 @@ function runoff() {
 
   document.getElementById("dots").innerHTML=dotsadd;
 
-  document.getElementById("download").innerHTML="Download: <a href=\""+data.games[name].download.windows+"\">windows</a> | <a href=\""+data.games[name].download.osx+"\">OSX</a> | <a href=\""+data.games[name].download.linux+"\">Linux</a> <br>";
+  var downloadadd = "Download: ";
+
+  for (var i in data.games[name].download) {
+    downloadadd += "<a href=\""+data.games[name].download[i]+"\">"+
+      i+
+      "</a> | ";
+  }
+
+  downloadadd += "<br>";
+
+  document.getElementById("download").innerHTML = downloadadd;
 
   var creatorsadd = "";
 
   for (var i in data.games[name].creators) {
-    creatorsadd += "<a href=\"#id\" class=\"creator\"><img src=\"../";
-    creatorsadd += data.members[data.games[name].creators[i].name].pfp;
+    creatorsadd += "<a href=\"../members/member.html?m="+
+      i+
+      "\" class=\"creator\"><img src=\"../";
+    creatorsadd += data.members[i].pfp;
     creatorsadd += "\"></img><div><h3>";
-    creatorsadd += data.members[data.games[name].creators[i].name].name;
+    creatorsadd += data.members[i].name;
     creatorsadd += "</h3><p>";
-    creatorsadd += data.games[name].creators[i].role;
+    creatorsadd += data.games[name].creators[i];
     creatorsadd += "</p></div></a>";
   }
 

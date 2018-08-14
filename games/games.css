@@ -14,7 +14,11 @@ h1,h3,p {
 
 a{
   text-decoration: none;
-  color: #bbbbbb;
+  color: #828282;
+}
+
+#download a {
+  color:white;
 }
 
 /*general game info, download, and desc */
@@ -42,6 +46,14 @@ a{
 .A2 {
   flex:1;
   min-width: 200px;
+}
+
+.A2 h1 {
+  font-size: 32px;
+}
+
+.A2 p {
+  margin-top: 10px;
 }
 
 /*list of creators*/
