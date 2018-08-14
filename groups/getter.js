@@ -28,16 +28,18 @@ function runoff() {
   var currentmembersadd = "";
 
   for (var i in data.groups[name].currentmembers) {
-    currentmembersadd += "<a href=\"#id\" class=\"person\">";
-    if ( data.members[data.groups[name].currentmembers[i].name].pfp !=  null) {
+    currentmembersadd += "<a href=\"../members/member.html?m="+
+      i+
+      "\" class=\"person\">";
+    if ( data.members[i].pfp !=  null) {
       currentmembersadd += "<img src=\"../";
-      currentmembersadd += data.members[data.groups[name].currentmembers[i].name].pfp;
+      currentmembersadd += data.members[i].pfp;
       currentmembersadd += "\"></img>";
     }
     currentmembersadd += "<div><h3>";
-    currentmembersadd += data.members[data.groups[name].currentmembers[i].name].name;
+    currentmembersadd += data.members[i].name;
     currentmembersadd += "</h3><p>";
-    currentmembersadd += data.groups[name].currentmembers[i].role;
+    currentmembersadd += data.groups[name].currentmembers[i];
     currentmembersadd += "</p></div></a>";
   }
 
@@ -46,16 +48,18 @@ function runoff() {
   var pastmembersadd = "";
 
   for (var i in data.groups[name].pastmembers) {
-    pastmembersadd += "<a href=\"#id\" class=\"person\">";
-    if ( data.members[data.groups[name].pastmembers[i].name].pfp !=  null) {
+    pastmembersadd += "<a href=\"../members/member.html?m="+
+    i+
+    "\" class=\"person\">";
+    if ( data.members[i].pfp !=  null) {
       pastmembersadd += "<img src=\"../";
-      pastmembersadd += data.members[data.groups[name].pastmembers[i].name].pfp;
+      pastmembersadd += data.members[i].pfp;
       pastmembersadd += "\"></img>";
     }
     pastmembersadd += "<div><h3>";
-    pastmembersadd += data.members[data.groups[name].pastmembers[i].name].name;
+    pastmembersadd += data.members[i].name;
     pastmembersadd += "</h3><p>";
-    pastmembersadd += data.groups[name].pastmembers[i].role;
+    pastmembersadd += data.groups[name].pastmembers[i];
     pastmembersadd += "</p></div></a>";
   }
 
@@ -68,7 +72,7 @@ function runoff() {
       data.groups[name].games[i]+
       "\"><img src = \"../"+
       data.games[data.groups[name].games[i]].icon+
-      "\" width=80 height=75></img><br>"+
+      "\"></img><br>"+
       data.games[data.groups[name].games[i]].name+
       "<p>"+
       data.games[data.groups[name].games[i]].shortdesc+
