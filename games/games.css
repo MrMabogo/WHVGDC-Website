@@ -50,10 +50,7 @@ a{
 
 .A2 h1 {
   font-size: 32px;
-}
-
-.A2 p {
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 /*list of creators*/
