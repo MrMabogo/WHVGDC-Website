@@ -1,5 +1,6 @@
 <html>
   <head>
+	<meta charset="utf-8">
 	<link rel="stylesheet" href="index.css">
 	<script src="hide.js"></script>
     <title>WHS Video Game Development</title>
@@ -15,7 +16,10 @@
 		<input id="search_bar" type="text">
 	</form>
 	<div id="content_nav">
-     <h2 style="padding-top: 15px;">Games</h2>
+    <h2 style="padding-top: 15px;">Games</h2>
+	<div class="unhide" id="ghide" onclick="toggle('games', this)">
+		<img src="downarrow.png" width="12px" height="18px">
+	</div>
 	<div id="games" class="container">
 	<div class="game">
 	<a href="games/colortunnel.html">
@@ -71,15 +75,15 @@
       <br>Tiddyos</a>
 	  <p> Team 1 </p>
 	  </div>
-	  <div class="game">
-	  <a href="games/colortunnel.html">
-	<img src="https://tse3.mm.bing.net/th?id=OIP.LqUv4AqwtKiuFlO8r0R74wHaEK&pid=Api" alt="colortunnel" width=80 height=75>
-      <br>Anime</a>
-	  <p> Team 3 </p>
-	  </div>
+	 <script type="text/javascript">
+		fold("games");
+	</script>
     </div>
 	<hr>
-    <h2>Teams</h2> 
+    <h2>Teams</h2>
+	<div class="unhide" id="thide" onclick="toggle('games', this)">
+		<img src="downarrow.png" width="12px" height="18px">
+	</div>	
 	<div id="teams" class="container">
 	<div class="team">
 	<a href="groups/freelancers.html">
@@ -93,9 +97,15 @@
 	<br>Team 3</a>
 	<p> Members: 3 </p>
 	</div>
+	<script type="text/javascript">
+		fold("teams");
+	</script>
 	</div>
 	<hr>
     <h2>Members</h2>
+	<div class="unhide" id="phide" onclick="toggle('games', this)">
+		<img src="downarrow.png" width="12px" height="18px">
+	</div>
 	<div id="people" class="container">
 	<div class="person">
 	<a href="members/allie.html">Allie Amerman </a>
@@ -105,6 +115,9 @@
 	<a href="members/allie.html">Allbus </a>
 	<p> Team 3: Artist </p>
 	</div>
+	<script type="text/javascript">
+		fold("people");
+	</script>
 	</div>
 	</div>
 	<div id="footer">
