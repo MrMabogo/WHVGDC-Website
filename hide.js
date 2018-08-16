@@ -42,12 +42,12 @@ function toggle(id, sec)
 		if(collection[i].style.display == "none")
 		{
 			collection[i].style.display = "";
-			btn.src = "media/uparrow.png";
+			btn.src = "mainmedia/uparrow.png";
 		}
 		else
 		{
 			collection[i].style.display = "none";
-			btn.src = "media/downarrow.png";
+			btn.src = "mainmedia/downarrow.png";
 		}
 	}
 }
