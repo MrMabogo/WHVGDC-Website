@@ -1,3 +1,209 @@
+#profiles li{
+        list-style-type: none;
+ }
+
+body
+{
+	margin-left: 10%;
+	margin-top: 0px;
+	margin-right: 1px;
+	background-color: #1E1E1E;
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+a
+{
+	text-decoration: none;
+	font-weight: bold;
+}
+
+form
+{
+	height: 1px;
+	margin-bottom: 0px;
+}
+
+body > div
+{
+	padding-left: 10px;
+	background-color: #828282;
+	margin-top: 0px;
+}
+
+body > div p
+{
+	color: #1F1F10F;
+}
+
+.page_head
+{
+	text-align: justify;
+	background-color: #EDEDED;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+}
+
+.page_head h1
+{
+	margin-bottom: 2px;
+	color: #878787;
+}
+
+.page_head p
+{
+	margin-top: 0px;
+	margin-left: 20px;
+	font-style: italic;
+	color: #878787;
+}
+
+.container
+{
+	display: flex;
+	justify-content: flex-start | space-between;
+	margin-left: 24px;
+}
+
+.container > div
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin-right: 24px;
+}
+
+.container p
+{
+	margin-top: 0px;
+	font-size: 16px;
+	
+}
+
+.container h2
+{
+	color: #0D0E0E;
+}
+
+.container a
+{
+	margin-bottom: 2px;
+	color: #FFFFFF;
+}
+
+.container p
+{
+	word-break: break-all;
+	margin-bottom: 2px;
+	color: #E1E1E1;
+}
+
+.game 
+{
+	padding: 6px 3px 3px 3px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #939393;
+}
+
+.game:hover
+{
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	background-color: #939393;
+}
+
+.game img
+{
+	margin: 3px 5px 5px 5px;
+}
+
+.person
+{
+	padding-right: 5px;
+}
+
+.person:hover
+{
+	border-top: 0px;
+	border-bottom: 0px;
+	border-right: 0px;
+	border-left: 3px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	padding-left: 2px;
+	background-color: #939393;
+}
+
+.person a
+{
+	font-size: 22px;
+}
+
+.team 
+{
+	padding: 6px 3px 3px 3px;
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	border-color: #939393;
+}
+
+.team:hover
+{
+	border: 1px 1px 1px 1px;
+	border-style: solid;
+	background-color: #939393;
+}
+
+.team a
+{
+	font-size: 22px;
+}
+.page_head h1
+{
+	text-shadow: 1px 2px;
+	margin-bottom: 2px;
+	color: #878787;
+}
+#search_bar
+{
+	display: inline-block;
+	background-color: #2F2F2F;
+	border: 0;
+	width: 15%;
+	height: 20px;
+	color: #FFFFFF;
+}
+
+#search_bar:focus
+{
+	border-bottom: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
+}
+
+#people
+{
+	padding-bottom: 18px;
+}
+
+#footer
+{
+	background-color: #EDEDED;
+	margin-bottom: 4px;
+	padding-bottom: 1px;
+}
+
+#footer h2
+{
+	color: #878787;
+}
+
+#footer p
+{
+	color: #878787;
+}
+=======
 body
 {
 	margin-left: 10%;
@@ -217,4 +423,3 @@ body > div p
 {
 	color: #878787;
 }
-
