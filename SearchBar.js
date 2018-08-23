@@ -22,13 +22,13 @@ var SecArr = [0,4];
 
            if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
                if(a.children[0].className == T1){
-                  document.getElementById(T1+"title").style.display = "";
+                  document.getElementById("gamestitle").style.display = "";
                }
                 else if(a.children[0].className == T2){
-                  document.getElementById(T2+"title").style.display = "";
+                  document.getElementById("teamstitle").style.display = "";
                }
                else if(a.children[0].className == T3){
-                  document.getElementById(T3+"title").style.display = "";
+                  document.getElementById("peopletitle").style.display = "";
                }
                   listitem[i].style.display = ""; //display match
         }
