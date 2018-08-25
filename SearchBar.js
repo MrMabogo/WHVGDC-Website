@@ -14,7 +14,6 @@ var profile=document.getElementById("profiles");
 
 var listitem=profile.getElementsByTagName("li");
 
-var SecArr = [0,4];
 
         for (var i = 0; i < listitem.length; i++){
         
@@ -28,7 +27,7 @@ var SecArr = [0,4];
                   listitem[3].style.display = "";
                }
                else if(a.innerHTML.indexOf(T3) > -1){
-                  listitem[6].style.display = "";
+                  listitem[5].style.display = "";
                }
                   listitem[i].style.display = "";
         }
