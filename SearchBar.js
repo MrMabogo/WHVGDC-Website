@@ -14,7 +14,6 @@ var profile=document.getElementById("profiles");
 
 var listitem=profile.getElementsByTagName("li");
 
-var SecArr = [0,4];
 
         for (var i = 0; i < listitem.length; i++){
         
@@ -22,13 +21,14 @@ var SecArr = [0,4];
 
            if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
                if(a.children[0].className == T1){
-                  document.getElementById("gamestitle").style.display = "";
+                 listitem[0].style.display = "";
                }
                 else if(a.children[0].className == T2){
-                  document.getElementById("teamstitle").style.display = "";
+                 listitem[3].style.display = "";
                }
-               else if(a.children[0].className == T3){
-                  document.getElementById("peopletitle").style.display = "";
+
+               else if(a.innerHTML.indexOf(T3) > -1){
+                  listitem[5].style.display = "";
                }
                   listitem[i].style.display = ""; //display match
         }
