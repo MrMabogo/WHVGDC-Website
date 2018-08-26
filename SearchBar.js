@@ -17,13 +17,13 @@ var listitem=profile.getElementsByTagName("li");
 
         for (var i = 0; i < listitem.length; i++){
         
-           var a = listitem[i];
+           var a = listitem[i].getElementsByTagName("a")[0];
 
            if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
                if(a.innerHTML.indexOf(T1) > -1 && a.innerHTML.indexOf(T2) <= -1){
                  listitem[0].style.display = "";
                }
-                else if(a.innerHTML.indexOf(T2) > -1  && a.innerHTML.indexOf(T3) <= -1){
+               else if(a.innerHTML.indexOf(T2) > -1  && a.innerHTML.indexOf(T3) <= -1){
                  listitem[3].style.display = "";
                }
 
