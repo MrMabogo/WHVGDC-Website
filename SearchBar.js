@@ -20,10 +20,10 @@ var listitem=profile.getElementsByTagName("li");
            var a = listitem[i];
 
            if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
-               if(a.children[0].className == T1){
+               if(a.innerHTML.indexOf(T1) > -1 && a.innerHTML.indexOf(T2) <= -1){
                  listitem[0].style.display = "";
                }
-                else if(a.children[0].className == T2){
+                else if(a.innerHTML.indexOf(T2) > -1  && a.innerHTML.indexOf(T3) <= -1){
                  listitem[3].style.display = "";
                }
 
