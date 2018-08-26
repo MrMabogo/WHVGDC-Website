@@ -1,7 +1,3 @@
-#profiles li{
-        list-style-type: none;
- }
-
 body
 {
 	margin-left: 10%;
@@ -71,6 +67,7 @@ body > div p
 	flex-direction: column;
 	flex-wrap: wrap;
 	margin-right: 24px;
+	margin-top: 10px;
 }
 
 .container p
@@ -165,6 +162,12 @@ body > div p
 	margin-bottom: 2px;
 	color: #878787;
 }
+
+#profiles li
+{
+	list-style: none;
+}
+
 #search_bar
 {
 	display: inline-block;
