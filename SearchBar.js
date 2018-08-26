@@ -4,11 +4,11 @@ var input=document.getElementById("search_bar");
 
 var ucase=input.value.toUpperCase();
 
-var T1 = "game";
+var T1 = "games";
 
-var T2 = "team";
+var T2 = "teams";
 
-var T3 = "person";
+var T3 = "members";
 
 var profile=document.getElementById("profiles");
 
