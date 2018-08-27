@@ -10,29 +10,47 @@ var T2 = "teams";
 
 var T3 = "members";
 
+var t1 = 0;
+
+var t2 = 0;
+
+var t3 = 0;
+
 var profile=document.getElementById("profiles");
 
 var listitem=profile.getElementsByTagName("li");
 
 
         for (var i = 0; i < listitem.length; i++){
-        
-           var a = listitem[i].getElementsByTagName("a")[0];
-
-           if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
+            var a = listitem[i].getElementsByTagName("a")[0];
+            
+            for(var j = 0; j < listitem.length; j++){
+                if(a.innerHTML.indexOf("T1") > -1){
+                    t1 = i;
+                }
+                if(a.innerHTML.indexOf("T2") > -1){
+                    t2 = i;
+                }
+                if(a.innerHTML.indexOf("T3") > -1){
+                    t3 = i;
+                }
+                console.log(t1 + " " + t2 + " " + t3);
+            }
+            
+            if(a.innerHTML.toUpperCase().indexOf(ucase) > -1 && ucase !== "") { //display section title
                if(a.innerHTML.indexOf(T1) > -1 && a.innerHTML.indexOf(T2) <= -1){
-                 listitem[0].style.display = "";
+                 listitem[t1].style.display = "";
                }
                else if(a.innerHTML.indexOf(T2) > -1  && a.innerHTML.indexOf(T3) <= -1){
-                 listitem[3].style.display = "";
+                 listitem[t2].style.display = "";
                }
 
                else if(a.innerHTML.indexOf(T3) > -1){
-                  listitem[5].style.display = "";
+                  listitem[t3].style.display = "";
                }
                   listitem[i].style.display = ""; //display match
         }
-           else{
+            else{
                 listitem[i].style.display = "none";
         }
 }
