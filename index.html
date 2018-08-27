@@ -22,12 +22,14 @@
 	   <ul id="profiles">
 			<li>
 				
-                    <h2 id="gamestitle" style="padding-top: 15px;"><a>Games</a></h2>
+                    <h2 id="gamestitle" style="padding-top: 15px;"><a>Games
+                    <div class="hiddentext" style ="display: none;">T1</div>
+                    </a></h2>
 
 
 			</li>
 		   <div class="unhide" id="ghide" onclick="toggle('games', this)">
-			<img src="media/downarrow.png" width="12px" height="18px">
+			<img src="downarrow.png" width="12px" height="18px">
 		</div>
 			<div id="games" class="container">
 			<li>
@@ -53,16 +55,18 @@
 
 	            </a>
 	            </div>
-					 <script type="text/javascript">
-		fold("games");
-	</script>
 	       
 			</li>
 			      </div>
+	<script type="text/javascript">
+		fold("games");
+	</script>
 			<li>
 			        <hr>
 
-        <h2 id="teamstitle" style="padding-top: 15px;"><a>Teams</a></h2>
+        <h2 id="teamstitle" style="padding-top: 15px;"><a>Teams
+        <div class="hiddentext" style ="display: none;">T2</div>
+        </a></h2>
                   
 	                
 			</li>
@@ -80,6 +84,8 @@
 		    <div class="hiddentext" style="display: none;">teams</div>
 	            </a>
 	            </div>
+			</li>
+			<li>
 				
 	       	<div class="team">
 			<a href="games/game.html?m=colortunnel">
@@ -91,20 +97,22 @@
 
 	            </a>
 	            </div>
-									 <script type="text/javascript">
-		fold("teams");
-	</script>
 	       
  			</li>
  			</div>
+		   <script type="text/javascript">
+		fold("teams");
+	</script>
  			<li>
  			        <hr>
 
-				<h2 id="peopletitle" style="padding-top: 15px;"><a>Members</a></h2>
+				<h2 id="peopletitle" style="padding-top: 15px;"><a>Members
+				<div class="hiddentext" style ="display: none;">T3</div>
+				</a></h2>
 
  			    
  			</li>
-			<div class="unhide" id="thide" onclick="toggle('teams', this)">
+			<div class="unhide" id="phide" onclick="toggle('teams', this)">
 				<img src="downarrow.png" width="12px" height="18px">
 			</div>	
  			<div id="people" class="container">
@@ -130,12 +138,14 @@
 
 	            </a>
 	            </div>
-					 <script type="text/javascript">
-		fold("people");
-	</script>
  			</li>
+		   </div>
+		<script type="text/javascript">
+			fold("people");
+		</script>
  			
  			</ul>
+		</div>
  		 
  	<div id="footer">
      <h2>About Us:</h2><p>Founded in 2017 by then sophomores Kevin Awoufack, Allie Amerman, and Tadiyos Berhane, the Game Development club is Wheaton High School's exciting leap into the world of video game design. We are a group of high school students who wanted to code in a fun and interesting way, mixing an enthusiasm for design with a childhood passion of video games. Each month, we host a game competition called a game jam, where we encourage students to create video games around that month's theme. Outside of game jams, we also teach the basics of game dev and computer programing to interested members, strongly encouraged for those seeking to develop new skills.</p>
