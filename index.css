@@ -61,7 +61,7 @@ body > div p
 	margin-left: 24px;
 }
 
-.container > div
+.container div
 {
 	display: flex;
 	flex-direction: column;
@@ -163,6 +163,11 @@ body > div p
 	color: #878787;
 }
 
+#profiles
+{
+	padding: 0;
+}
+
 #profiles li
 {
 	list-style: none;
@@ -240,11 +245,6 @@ body > div p
 	color: #1F1F10F;
 }
 
-#content_nav h2
-{
-	margin-bottom: 10px;
-}
-
 .unhide
 {
 	float: right;
@@ -290,7 +290,7 @@ body > div p
 	margin-left: 24px;
 }
 
-.container > div
+.container div
 {
 	flex-shrink: 0;
 	flex-grow: .005;
@@ -386,6 +386,11 @@ body > div p
 .team a
 {
 	font-size: 22px;
+}
+
+#content_nav h2
+{
+	margin-bottom: 10px;
 }
 
 #search_bar
