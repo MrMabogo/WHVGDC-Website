@@ -61,7 +61,8 @@ a:not(.nav)
 
 .person p
 {
-	color: #E1E1E1;
+	color: #aacbff;
+	font-weight: normal;
 }
 
 .person h3
@@ -130,6 +131,7 @@ a:not(.nav)
 }
 
 #header>div{
+	flex:1;
 	min-width: 200px;
 	margin-bottom: 15px;
 }

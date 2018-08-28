@@ -102,7 +102,7 @@ a{
 	font-size: 12px;
 }
 
-.game p#extra {
+.game p#extra, .team p#extra {
   color: #aacbff;
 }
 

@@ -27,6 +27,12 @@ function runoff() {
 
   var currentmembersadd = "";
 
+  if (data.groups[name].currentmembers != null) {
+    document.getElementById("currentheader").innerHTML = "Current Members";
+
+    document.getElementById("currentmembers").classList.add('container');
+  }
+
   for (var i in data.groups[name].currentmembers) {
     currentmembersadd += "<a href=\"../members/member.html?m="+
       i+
@@ -46,6 +52,11 @@ function runoff() {
   document.getElementById("currentmembers").innerHTML = currentmembersadd;
 
   var pastmembersadd = "";
+
+  if ( data.groups[name].pastmembers != null) {
+    document.getElementById("pastheader").innerHTML= "Past Members";
+    document.getElementById("pastmembers").classList.add('container');
+  }
 
   for (var i in data.groups[name].pastmembers) {
     pastmembersadd += "<a href=\"../members/member.html?m="+

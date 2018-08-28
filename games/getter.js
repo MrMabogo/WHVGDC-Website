@@ -54,7 +54,7 @@ function runoff() {
     dotsadd += data.games[name].videos[i];
     dotsadd += "\" class=\"dot\" onclick=\"currentSlide(";
     dotsadd += Number(i)+1+data.games[name].pictures.length;
-    dotsadd += ")\">";
+    dotsadd += ")\"></video>";
   }
 
   document.getElementById("dots").innerHTML=dotsadd;
@@ -76,9 +76,13 @@ function runoff() {
   for (var i in data.games[name].creators) {
     creatorsadd += "<a href=\"../members/member.html?m="+
       i+
-      "\" class=\"creator\"><img src=\"../";
-    creatorsadd += data.members[i].pfp;
-    creatorsadd += "\"></img><div><h3>";
+      "\" class=\"creator\">";
+    if ( data.members[i].pfp !=  null) {
+      creatorsadd += "<img src=\"../";
+      creatorsadd += data.members[i].pfp;
+      creatorsadd += "\"></img>";
+    }
+    creatorsadd += "<div><h3>";
     creatorsadd += data.members[i].name;
     creatorsadd += "</h3><p>";
     creatorsadd += data.games[name].creators[i];

@@ -10,20 +10,71 @@ var data = {
       "games" : ["<Add any games this member has contributed to. List games by their identifier (lowercase no spaces)>"]
     },
 
-
+    "abrehamtemesgen" : {
+      "name" : "Abreham Temesgen",
+      "desc" : "",
+      "groups" : ["staff","team2","webdev"],
+      "games" : ["leafpilot","ourinvasion","website"]
+    },
     "albertefremov" : {
       "name" : "Albert Efremov",
-      "pfp" : "media/stick.png",
-      "desc" : "a person",
+      "desc" : "",
       "groups" : ["freelancers"],
       "games" : ["somegame"]
     },
     "allieamerman" : {
       "name" : "Allie Amerman",
-      "pfp" : "media/stick.png",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
-      "groups" : ["team1"],
-      "games" : ["colortunnel", "colortunnel"]
+      "desc" : "Senior at Wheaton High School graduating in Spring of 2019. Planning to double major in Computer Science and Materials Science. Interested in Artifical Intelligence and Molecular Simulation. Hobby writer and music composer. <br> <a style=\"color:blue; padding-left:10px;\" href=\"https://soundcloud.com/vyroj\">soundcloud</a>",
+      "groups" : ["staff","team1","webdev"],
+      "games" : ["colorstorm", "thenightbefore", "therock","website"]
+    },
+    "brianmbogo" : {
+      "name" : "Brian Mbogo",
+      "desc" : "",
+      "groups" : ["staff","team2","webdev"],
+      "games" : ["leafpilot","ourinvasion","website"]
+    },
+    "dzakyhasan" : {
+      "name" : "Dzaky F. Hasan",
+      "desc" : "Graduating year: Spring 2019 <br>Interests: Sound Design, Biomedical Engineering, Music Technology, Child Care and Development",
+      "groups" : ["team3"],
+      "games" : ["sevensins","colorstorm"]
+    },
+    "eddie" : {
+      "name" : "Eddie",
+      "desc" : "",
+      "groups" : ["team3"],
+      "games" : ["sevensins"]
+    },
+    "gabriellepham" : {
+      "name" : "Gabrielle Pham",
+      "desc" : "Computer Science Student currently at UMD",
+      "groups" : ["team3"],
+      "games" : ["sevensins"]
+    },
+    "kevinawoufack" : {
+      "name" : "Kevin Awoufack",
+      "desc" : "Co-founder",
+      "groups" : ["staff","team1"],
+      "games" : ["colorstorm", "thenightbefore", "therock"]
+    },
+    "raventiu" : {
+      "name" : "Raven Tiu",
+      "desc" : "",
+      "groups" : ["team2"],
+      "games" : ["ourinvasion"]
+    },
+    "riniackerman" : {
+      "name" : "Rini Ackerman",
+      "desc" : "Forever alone.",
+      "groups" : ["team3"],
+      "games" : ["sevensins"]
+    },
+    "tadiyosberhane" : {
+      "name" : "Tadiyos Berhane",
+      "desc" : "Co-founder and club head",
+      "groups" : ["staff","team1"],
+      "games" : ["colorstorm", "thenightbefore", "therock"]
     },
     "test" : {
       "name" : "Bob T. Builder"
@@ -42,35 +93,78 @@ var data = {
       "pastmembers" : {
         "<Identifier of member (lowercase no spaces aka johndoe)>" : "<Role of the member>"
       },
-      "games" : ["<List all games by identifier (lowercase no spaces aka colortunnel)"]
+      "games" : ["<List all games by identifier (lowercase no spaces aka colorstorm)"]
     },
 
-
+    "staff" : {
+      "name" : "Staff",
+      "pfp" : "media/staff.png",
+      "desc" : "In charge",
+      "currentmembers" : {
+        "tadiyosberhane" : "Head, Founder",
+        "allieamerman" : "Co-founder, Admin",
+        "kevinawoufack" : "Co-founder, Admin",
+        "brianmbogo" : "Advisor",
+        "abrehamtemesgen" : "Advisor"
+      },
+      "games" : []
+    },
     "freelancers" : {
       "name" : "Freelancers",
-      "pfp" : "media/stick.png",
       "desc" : "Aid for the Artistically impaired",
       "currentmembers" : {
-        "albertefremov" : "Artist"
+        "albertefremov" : "Art",
+        "dzakyhasan" : "Music"
       },
-      "pastmembers" : {
-        "test" : "Alumnus",
+      "games" : ["colorstorm"]
+    },
+    "webdev" : {
+      "name" : "Web Developers",
+      "pfp" : "media/webdevs.png",
+      "desc" : "Exploring different technologies and conventions in web development.",
+      "currentmembers" : {
+        "brianmbogo" : "HTML and CSS",
+        "abrehamtemesgen" : "JS",
+        "allieamerman" : "HTML, CSS, and JS"
       },
-      "games" : ["colortunnel", "colortunnel", "colortunnel"]
+      "games" : ["website"]
     },
     "team1" : {
       "name" : "Team 1",
-      "pfp" : "media/stick.png",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incidid",
-      "currentmembers" : {"allieamerman" : "test"},
-      "pastmembers" : {"":""},
-      "games" : ["colortunnel"]
+      "desc" : "The one to rule them all",
+      "currentmembers" : {
+        "tadiyosberhane" : "Code / Art, Music, Script",
+        "allieamerman" : "Code / Art, Music",
+        "kevinawoufack" : "Code / Art"
+      },
+      "games" : ["colorstorm", "thenightbefore", "therock"]
+    },
+    "team2" : {
+      "name" : "Team 2",
+      "desc" : "Secondhand",
+      "currentmembers" : {
+        "brianmbogo" : "Code",
+        "abrehamtemesgen" : "Code",
+        "raventiu" : "Music"
+      },
+      "games" : ["leafpilot","ourinvasion"]
+    },
+    "team3" : {
+      "name" : "Team 3",
+      "desc" : "A development team filled with diverse talents ranging from music production, programming, storytelling, and illustrations.",
+      "currentmembers" : {
+        "gabriellepham" : "Code",
+        "dzakyhasan" : "Music",
+        "eddie" : "Art",
+        "riniackerman" : "Script"
+      },
+      "games" : ["sevensins"]
     }
   },
 
   "games" : {
     //  TEMPLATE (replace things between < and >)
-    "<Name of game in all lowercase with no spaces (aka colortunnel or some other unique identifier)" : {
+    "<Name of game in all lowercase with no spaces (aka colorstorm or some other unique identifier)" : {
       "name" : "<Name of the game but capitalized and spaced (aka Color Tunnel)",
       "icon" : "<Upload icon to media folder and then link as media/<icon name>.jpg>",
       "pictures" : ["<Upload pictures to media folder and list the links"],
@@ -86,21 +180,117 @@ var data = {
     },
 
 
-    "colortunnel" : {
-      "name" : "Color Tunnel",
-      "icon" : "media/stick.png",
-      "pictures" : ["media/img1.jpg","media/img2.jpg"],
-      "videos" : ["media/vid3.mp4"],
-      "shortdesc" : "a game about a tunnel",
-      "desc" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed dostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "colorstorm" : {
+      "name" : "Color Storm",
+      "icon" : "media/colorstormicon.png",
+      "pictures" : ["media/colorstorm1.png"],
+      "videos" : ["media/colorstorm2.mp4"],
+      "shortdesc" : "endless runner",
+      "desc" : "You are navigating a magical color-shifting plane through a storm of colorful barriers which can destroy you in one collision. Are you ready?",
       "download" : {
-        "Windows" : "down",
-        "OSX" : "down",
-        "Linux" : "down"
+        "itch.io" : "https://wheaton-high-school-vmc.itch.io/color-storm"
       },
       "creators" : {
-        "allieamerman" : "code",
-        "allieamerman" : "code"
+        "allieamerman" : "Code",
+        "tadiyosberhane" : "Music",
+        "kevinawoufack" : "Art",
+        "dzakyhasan" : "Music"
+      }
+    },
+    "thenightbefore" : {
+      "name" : "The Night Before",
+      "icon" : "media/sketch.png",
+      "pictures" : ["media/pumpkin1.png"],
+      "videos" : ["media/pumpkin2.webm","media/pumpkin3.webm"],
+      "shortdesc" : "dungeon",
+      "desc" : "Your PUMPKIN is your life. It keeps you hidden among MONSTERS. Unfortunately, it also attracts them, as they want your pumpkin to protect themselves in the sunlight. Luckily, you've got multiple pumpkins.",
+      "download" : {
+        "itch.io" : "https://vyroj.itch.io/the-night-before"
+      },
+      "creators" : {
+        "allieamerman" : "Code, Music",
+        "tadiyosberhane" : "Code, Art",
+        "kevinawoufack" : "Code, Level Design"
+      }
+    },
+    "therock" : {
+      "name" : "The Rock",
+      "icon" : "media/rockicon.png",
+      "pictures" : ["media/therock1.png"],
+      "videos" : ["media/therock2.webm","media/therock3.webm"],
+      "shortdesc" : "story, platform",
+      "desc" : "We made this game a few months ago, and lost the working editable version. We made some mistakes while making it and the sizing may not work out perfectly, but as long as you can support 1080x1024 it should be okay. Our instructions were a lie, it's enter to advance dialogue.",
+      "download" : {
+        "itch.io" : "https://wheaton-high-school-vmc.itch.io/the-rock"
+      },
+      "creators" : {
+        "allieamerman" : "Code, Music, Art",
+        "tadiyosberhane" : "Code, Script, Level Design",
+        "kevinawoufack" : "Code, Art"
+      }
+    },
+    "sevensins" : {
+      "name" : "Seven Sins",
+      "icon" : "media/sssicon.png",
+      "pictures" : ["media/sss1.png","media/sss2.png"],
+      "videos" : [],
+      "shortdesc" : "visual novel/text-adventure",
+      "desc" : "High School Visual Novel.",
+      "download" : {
+        "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
+      },
+      "creators" : {
+        "gabriellepham" : "Code",
+        "eddie" : "Art",
+        "riniackerman" : "Script",
+        "dzakyhasan" : "Music"
+      }
+    },
+    "leafpilot" : {
+      "name" : "Leaf Pilot",
+      "icon" : "media/",
+      "pictures" : [],
+      "videos" : [],
+      "shortdesc" : "visual novel/text-adventure",
+      "desc" : "",
+      "download" : {
+        "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
+      },
+      "creators" : {
+        "brianmbogo" : "Code",
+        "abrehamtemesgen" : "Code"
+      }
+    },
+    "ourinvasion" : {
+      "name" : "Our Invasion",
+      "icon" : "media/",
+      "pictures" : [],
+      "videos" : [],
+      "shortdesc" : "visual novel/text-adventure",
+      "desc" : "",
+      "download" : {
+        "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
+      },
+      "creators" : {
+        "brianmbogo" : "Code",
+        "abrehamtemesgen" : "Code",
+        "raventiu" : "Music"
+      }
+    },
+    "website" : {
+      "name" : "Website",
+      "icon" : "media/arrows.png",
+      "pictures" : ["media/website.png"],
+      "videos" : [],
+      "shortdesc" : "insert meta joke",
+      "desc" : "This.",
+      "download" : {
+        "Home" : "../index.html"
+      },
+      "creators" : {
+        "brianmbogo" : "HTML and CSS",
+        "abrehamtemesgen" : "JS",
+        "allieamerman" : "HTML, CSS, and JS"
       }
     }
   }
