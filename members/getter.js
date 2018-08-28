@@ -40,9 +40,13 @@ function runoff() {
     }
     groupsadd += "<div><h3>"+
       data.groups[data.members[name].groups[i]].name+
-      "</h3><p>Members: "+
-      Object.keys(data.groups[data.members[name].groups[i]].currentmembers).length+
-      "</p></div></a>";
+      "</h3>";
+      if (data.groups[data.members[name].groups[i]].currentmembers[name] != null) {
+        groupsadd += "<p id=\"extra\">"+data.groups[data.members[name].groups[i]].currentmembers[name];
+      } else {
+        groupsadd += "<p>"+data.groups[data.members[name].groups[i]].pastmembers[name];
+      }
+      groupsadd += "</p></div></a>";
   }
 
   document.getElementById("groups").innerHTML = groupsadd;

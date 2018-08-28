@@ -78,6 +78,7 @@ a{
   margin-right: 15px;
   margin-top: 10px;
   padding: 5px;
+  color:White;
 
   display: flex;
   flex-direction: row;
@@ -102,6 +103,7 @@ a{
 .creator p {
   margin: 0;
   margin-right: 5px;
+  color: #aacbff;
 }
 
 .creator h3 {
