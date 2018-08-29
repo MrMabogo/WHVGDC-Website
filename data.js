@@ -54,7 +54,7 @@ var data = {
     },
     "kevinawoufack" : {
       "name" : "Kevin Awoufack",
-      "desc" : "Co-founder",
+      "desc" : "I'm a senior in Wheaton  HS's class of 2019. I plan to major in Computer Engineering or maybe double major with Business. I plan to enter the tech industry and hopefully create my own startup. Outside of STEM I enjoy reading, hanging out with friends, watching anime, and being monotone. Mostly the last thing.",
       "groups" : ["staff","team1"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     },
@@ -72,7 +72,7 @@ var data = {
     },
     "tadiyosberhane" : {
       "name" : "Tadiyos Berhane",
-      "desc" : "Co-founder and club head",
+      "desc" : "Currently a senior at Wheaton high school; part of the graduating class of 2019. Majors that I am interested in possibly pursuing include: computer science, software engineering, machine learning & electrical engineering. Hobbies include playing video games (especially rocket league) and watching anime.",
       "groups" : ["staff","team1"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     },
@@ -235,7 +235,7 @@ var data = {
       "pictures" : ["media/sss1.png","media/sss2.png"],
       "videos" : [],
       "shortdesc" : "visual novel/text-adventure",
-      "desc" : "High School Visual Novel.",
+      "desc" : "Your first moments as a freshman of Wonton high are greeted by a diverse cast of characters. Unlike most dating sims this is set in America, and it shows. Step into the shoes of Freshie-chan as they contemplate what clubs will they do during lunch, will they fit into the many cliques and groups of high school, why do the hallways smell so weird, and who will they date? Will it be the Childhood all-rounder with a prideful attitude, the preppy divas dripping with greed and envy, the token Petite Tsundere with wrath in her step, and much more. The choice is up to you.",
       "download" : {
         "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
       },
