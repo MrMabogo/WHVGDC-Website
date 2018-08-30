@@ -7,10 +7,19 @@ body
 	font-family: "Trebuchet MS", sans-serif;
 }
 
+h1,h2,h3,p {
+	margin: 0;
+}
+
 a
 {
 	text-decoration: none;
 	font-weight: bold;
+	color: white;
+}
+
+#b {
+	color:black;
 }
 
 form
@@ -26,11 +35,6 @@ body > div
 	margin-top: 0px;
 }
 
-body > div p
-{
-	color: #1F1F10F;
-}
-
 .page_head
 {
 	text-align: justify;
@@ -38,12 +42,12 @@ body > div p
 	padding-top: 20px;
 	padding-bottom: 20px;
 	margin-bottom: 0px;
+	color:#444444;
 }
 
 .page_head h1
 {
 	margin-bottom: 2px;
-	color: #878787;
 }
 
 .page_head p
@@ -51,15 +55,19 @@ body > div p
 	margin-top: 0px;
 	margin-left: 20px;
 	font-style: italic;
-	color: #878787;
 }
 
 .container
 {
 	display: flex;
 	justify-content: flex-start | space-between;
-	margin-left: 24px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 15px;
+	padding-top: 5px;
 }
+
+/*
 
 .container div
 {
@@ -74,7 +82,7 @@ body > div p
 {
 	margin-top: 0px;
 	font-size: 16px;
-	
+
 }
 
 .container h2
@@ -94,8 +102,39 @@ body > div p
 	margin-bottom: 2px;
 	color: #E1E1E1;
 }
+*/
 
-.game 
+.game
+{
+	background-color: #606060;
+	padding: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-right: 15px;
+	margin-top: 10px;
+	text-align: center;
+	width: 100px;
+}
+
+.game:hover
+{
+	background-color: #939393;
+}
+
+.game img
+{
+	width: 100px;
+	height: 100px;
+}
+
+.game p
+{
+	color: #bbbbbb;
+	font-size: 12px;
+}
+
+/*
+.game
 {
 	padding: 6px 3px 3px 3px;
 	border: 1px 1px 1px 1px;
@@ -114,7 +153,46 @@ body > div p
 {
 	margin: 3px 5px 5px 5px;
 }
+*/
+.person
+{
+	background-color: #606060;
+	margin-right: 15px;
+	margin-top: 10px;
+	padding: 5px;
 
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.person>img{
+	width: 50px;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.person p
+{
+	color: #aacbff;
+	font-weight: normal;
+}
+
+.person h3
+{
+	margin-bottom: 2px;
+}
+
+.person:hover
+{
+	border: 0;
+	border-left: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-left: -2px;
+	background-color: #939393;
+}
+/*
 .person
 {
 	padding-right: 5px;
@@ -136,8 +214,52 @@ body > div p
 {
 	font-size: 22px;
 }
+*/
+.team
+{
+  background-color: #606060;
+  margin-right: 15px;
+  margin-top: 10px;
+  padding: 5px;
 
-.team 
+  color: #DFDFDF;
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team a {
+	display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.team img{
+  width: 50px;
+	height: 50px;
+	margin-right: 5px;
+}
+
+.team h3 {
+  margin-bottom: 2px;
+}
+
+.team:hover
+{
+  border: 0;
+	border-left: 2px;
+	border-style: solid;
+	border-color: #FFFFFF;
+	margin-left: -2px;
+	background-color: #939393;
+}
+
+.team p#extra {
+	font-weight: normal;
+  color: #aacbff;
+}
+/*
+.team
 {
 	padding: 6px 3px 3px 3px;
 	border: 1px 1px 1px 1px;
@@ -156,11 +278,11 @@ body > div p
 {
 	font-size: 22px;
 }
+*/
 .page_head h1
 {
-	text-shadow: 1px 2px;
+	text-shadow: 1px 2px #919191;
 	margin-bottom: 2px;
-	color: #878787;
 }
 
 #profiles
@@ -194,7 +316,7 @@ body > div p
 {
 	padding-bottom: 18px;
 }
-
+/*
 #footer
 {
 	background-color: #EDEDED;
@@ -211,12 +333,14 @@ body > div p
 {
 	color: #878787;
 }
+*/
 =======
+
 body
 {
 	margin-left: 10%;
 	margin-top: 0px;
-	margin-right: 1px;
+	margin-right: 0;
 	background-color: #1E1E1E;
 	font-family: "Trebuchet MS", sans-serif;
 }
@@ -267,7 +391,6 @@ body > div p
 .page_head h1
 {
 	margin-bottom: 2px;
-	color: #878787;
 }
 
 .page_head p
@@ -275,20 +398,9 @@ body > div p
 	margin-top: 0px;
 	margin-left: 20px;
 	font-style: italic;
-	color: #878787;
 }
 
-.container
-{
-	display: -webkit-box;
-	display: -moz-box;
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: flex;
-	justify-content: flex-start | space-between;
-	flex-wrap: wrap;
-	margin-left: 24px;
-}
+/*
 
 .container div
 {
@@ -305,7 +417,7 @@ body > div p
 {
 	margin-top: 0px;
 	font-size: 16px;
-	
+
 }
 
 .container h2
@@ -326,7 +438,7 @@ body > div p
 	color: #E1E1E1;
 }
 
-.game 
+.game
 {
 	padding: 6px 3px 3px 3px;
 	border: 1px 1px 1px 1px;
@@ -345,7 +457,8 @@ body > div p
 {
 	margin: 3px 5px 5px 5px;
 }
-
+*/
+/*
 .person
 {
 	padding-right: 5px;
@@ -368,13 +481,15 @@ body > div p
 	font-size: 22px;
 }
 
-.team 
+.team
 {
 	padding: 6px 3px 3px 3px;
 	border: 1px 1px 1px 1px;
 	border-style: solid;
 	border-color: #939393;
 }
+*/
+/*
 
 .team:hover
 {
@@ -387,10 +502,11 @@ body > div p
 {
 	font-size: 22px;
 }
-
+*/
 #content_nav h2
 {
 	margin-bottom: 10px;
+	color:black;
 }
 
 #search_bar
@@ -417,17 +533,14 @@ body > div p
 
 #footer
 {
-	background-color: #EDEDED;
+	background-color: #494949;
 	margin-bottom: 4px;
-	padding-bottom: 1px;
+	padding: 15px;
+	padding-right: 10%;
+	color:#e8e8e8;
 }
 
-#footer h2
-{
-	color: #878787;
-}
-
-#footer p
-{
-	color: #878787;
+#footer p {
+	padding-top: 15px;
+	padding-left: 15px;
 }

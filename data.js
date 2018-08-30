@@ -2,6 +2,7 @@ var data = {
 
   "members" : {
     //  TEMPLATE (replace things between < and >)
+    /*
     "<Name of person in all lowercase with no spaces (aka: johndoe, or some other unique identifier)>" : {
       "name" : "<Full name capitalized and spaced for display (aia: John Doe)>",
       "pfp" : "(optional, delete this whole row if the member does not have a pfp) <Upload pfp to media folder and then link as media/<pfp name>.jpg>",
@@ -9,28 +10,29 @@ var data = {
       "groups" : ["<Add any teams this member has contributed to games in. List teams by their identifier (lowercase no spaces)>"],
       "games" : ["<Add any games this member has contributed to. List games by their identifier (lowercase no spaces)>"]
     },
+    */
 
     "abrehamtemesgen" : {
       "name" : "Abreham Temesgen",
-      "desc" : "",
+      "desc" : "I was born in the capital of a large east African country, and raised in its hearth for the better part of a decade. In 2007 i was flown to the united states, where I was introduced to computing and the world of virtual gaming. As a young programmer, I have participated in my school's many outlets for folks with interests in software development including this video-game making club. I have worked on 4 game of which three are ready to play. Although I have worked hard on each of these games I do realize that they are far from finished and as I learn more about making engaging, thoughtful, and, most of all, fun games my previous work is also sure to improve. Thanks for reading.",
       "groups" : ["staff","team2","webdev"],
       "games" : ["leafpilot","ourinvasion","website"]
     },
     "albertefremov" : {
       "name" : "Albert Efremov",
-      "desc" : "",
+      "desc" : "Senior at Wheaton Highschool graduation in Spring of 2019.",
       "groups" : ["freelancers"],
       "games" : ["somegame"]
     },
     "allieamerman" : {
       "name" : "Allie Amerman",
-      "desc" : "Senior at Wheaton High School graduating in Spring of 2019. Planning to double major in Computer Science and Materials Science. Interested in Artifical Intelligence and Molecular Simulation. Hobby writer and music composer. <br> <a style=\"color:blue; padding-left:10px;\" href=\"https://soundcloud.com/vyroj\">soundcloud</a>",
+      "desc" : "Senior at Wheaton High School graduating in Spring of 2019. Planning to double major in Computer Science and Materials Science. Interested in Artifical Intelligence and Molecular Simulation. Hobby writer and music composer.",
       "groups" : ["staff","team1","webdev"],
       "games" : ["colorstorm", "thenightbefore", "therock","website"]
     },
     "brianmbogo" : {
       "name" : "Brian Mbogo",
-      "desc" : "",
+      "desc" : "I was born in Uganda and immigrated here when i was 7. I became very interested in science when I was in 6th grade and that led me to programming. I've been teaching myself on and off since I was in 7th grade. Although I have no specific field of interest for programming, game development brings together many important principles which is why I joined this club.",
       "groups" : ["staff","team2","webdev"],
       "games" : ["leafpilot","ourinvasion","website"]
     },
@@ -40,9 +42,9 @@ var data = {
       "groups" : ["team3"],
       "games" : ["sevensins","colorstorm"]
     },
-    "eddie" : {
-      "name" : "Eddie",
-      "desc" : "",
+    "eddiedevoney" : {
+      "name" : "Eddie Devoney",
+      "desc" : "Graduating year: 2018 <br>Interests: Drawing, Psychology, Storytelling <br>Wishes: he had the guts to maintain a webcomic",
       "groups" : ["team3"],
       "games" : ["sevensins"]
     },
@@ -54,13 +56,13 @@ var data = {
     },
     "kevinawoufack" : {
       "name" : "Kevin Awoufack",
-      "desc" : "Co-founder",
+      "desc" : "I'm a senior in Wheaton  HS's class of 2019. I plan to major in Computer Engineering or maybe double major with Business. I plan to enter the tech industry and hopefully create my own startup. Outside of STEM I enjoy reading, hanging out with friends, watching anime, and being monotone. Mostly the last thing.",
       "groups" : ["staff","team1"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
     },
     "raventiu" : {
       "name" : "Raven Tiu",
-      "desc" : "",
+      "desc" : "Senior at Wheaton Highschool graduation in Spring of 2019.",
       "groups" : ["team2"],
       "games" : ["ourinvasion"]
     },
@@ -72,17 +74,15 @@ var data = {
     },
     "tadiyosberhane" : {
       "name" : "Tadiyos Berhane",
-      "desc" : "Co-founder and club head",
+      "desc" : "Currently a senior at Wheaton high school; part of the graduating class of 2019. Majors that I am interested in possibly pursuing include: computer science, software engineering, machine learning & electrical engineering. Hobbies include playing video games (especially rocket league) and watching anime.",
       "groups" : ["staff","team1"],
       "games" : ["colorstorm", "thenightbefore", "therock"]
-    },
-    "test" : {
-      "name" : "Bob T. Builder"
     }
   },
 
   "groups" : {
     //  TEMPLATE (replace things between < and >)
+    /*
     "<Name of group in all lowercase with no spaces (aka freelancers or team1, or some other unique identifier)>" : {
       "name" : "<Name of group, but capitalized and spaced (aka Freelancers or Team 1)>",
       "pfp" : "<(optional, delete this whole row if the team does not have a pfp) Upload pfp to media folder and then link as media/<pfp name>.jpg>",
@@ -95,6 +95,7 @@ var data = {
       },
       "games" : ["<List all games by identifier (lowercase no spaces aka colorstorm)"]
     },
+    */
 
     "staff" : {
       "name" : "Staff",
@@ -155,7 +156,7 @@ var data = {
       "currentmembers" : {
         "gabriellepham" : "Code",
         "dzakyhasan" : "Music",
-        "eddie" : "Art",
+        "eddiedevoney" : "Art",
         "riniackerman" : "Script"
       },
       "games" : ["sevensins"]
@@ -164,6 +165,7 @@ var data = {
 
   "games" : {
     //  TEMPLATE (replace things between < and >)
+    /*
     "<Name of game in all lowercase with no spaces (aka colorstorm or some other unique identifier)" : {
       "name" : "<Name of the game but capitalized and spaced (aka Color Tunnel)",
       "icon" : "<Upload icon to media folder and then link as media/<icon name>.jpg>",
@@ -178,6 +180,7 @@ var data = {
         "<Identifier of member (lowercase no spaces aka johndoe)>" : "<Role(s)>"
       }
     },
+    */
 
 
     "colorstorm" : {
@@ -235,26 +238,26 @@ var data = {
       "pictures" : ["media/sss1.png","media/sss2.png"],
       "videos" : [],
       "shortdesc" : "visual novel/text-adventure",
-      "desc" : "High School Visual Novel.",
+      "desc" : "Your first moments as a freshman of Wonton high are greeted by a diverse cast of characters. Unlike most dating sims this is set in America, and it shows. Step into the shoes of Freshie-chan as they contemplate what clubs will they do during lunch, will they fit into the many cliques and groups of high school, why do the hallways smell so weird, and who will they date? Will it be the Childhood all-rounder with a prideful attitude, the preppy divas dripping with greed and envy, the token Petite Tsundere with wrath in her step, and much more. The choice is up to you.",
       "download" : {
         "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
       },
       "creators" : {
         "gabriellepham" : "Code",
-        "eddie" : "Art",
+        "eddiedevoney" : "Art",
         "riniackerman" : "Script",
         "dzakyhasan" : "Music"
       }
     },
     "leafpilot" : {
       "name" : "Leaf Pilot",
-      "icon" : "media/",
-      "pictures" : [],
+      "icon" : "media/leafpiloticon.png",
+      "pictures" : ["media/leafpilot1.png","media/leafpilot2.png"],
       "videos" : [],
-      "shortdesc" : "visual novel/text-adventure",
-      "desc" : "",
+      "shortdesc" : "obstacle avoidance",
+      "desc" : "Pilot a leaf on its long journey down a tree by avoiding branches.",
       "download" : {
-        "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
+        "itch.io" : "https://cheesebogo.itch.io/leaf-pilot"
       },
       "creators" : {
         "brianmbogo" : "Code",
@@ -263,13 +266,13 @@ var data = {
     },
     "ourinvasion" : {
       "name" : "Our Invasion",
-      "icon" : "media/",
-      "pictures" : [],
+      "icon" : "media/ourinvasionicon.png",
+      "pictures" : ["media/ourinvasion1.png","media/ourinvasion2.png","media/ourinvasion3.png"],
       "videos" : [],
-      "shortdesc" : "visual novel/text-adventure",
-      "desc" : "",
+      "shortdesc" : "short puzzle",
+      "desc" : "Evade the planet's defenses as you try to invade.",
       "download" : {
-        "simmer.io" : "https://simmer.io/@PurePureMilk/seven-sins"
+        "itch.io" : "https://cheesebogo.itch.io/our-invasion"
       },
       "creators" : {
         "brianmbogo" : "Code",
